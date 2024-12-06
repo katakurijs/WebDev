@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" method="post">
+        <p style="text-align: center;">Bonjour,</p>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom"> <br>
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom"> <br>
+        <label for="pass">mot de passe :</label>
+        <input type="password" id="pass" name="pass"> <br>
+        <label for="comm">Commentaire :</label> <br>
+        <textarea name="comm" id="comm"></textarea> <br>
+        <label for="aliments">Cochez les aliments que vous aimez manger : </label><br>
+        <input type="checkbox" name="aliments">Frites <br>
+        <input type="checkbox" name="aliments">Steak haché <br>
+        <input type="checkbox" name="aliments">Epinards <br>
+        <input type="checkbox" name="aliments">Huitress <br>
+        <label for="age">Veuillez indiquer la tranche d'age dans laquelle vous vous situez :</label> <br>
+        <input type="radio" name="age">Moins de 15 ans <br>
+        <input type="radio" name="age">15-25 ans <br>
+        <input type="radio" name="age">25-40 ans <br>
+        <label for="pays">Dans quel pays habitez-vous ?</label> <br>
+        <select name="pays" id="pays">
+            <optgroup label="Afrique">
+                <option value="maroc">Maroc</option>
+                <option value="algerie">Algérie</option>
+                <option value= tunisie>Tunisie</option>
+                <option value="senegal">Sénégal</option> 
+            </optgroup>
+            <optgroup label="Amérique">
+                <option value="canada">Canada</option>
+                <option value="etats-unis">Etats-Unis</option> 
+            </optgroup>
+            <optgroup label="Asie"> 
+                <option value="inde">Inde</option>
+                <option value="chine">Chine</option>
+                <option value="japon">Japon</option> 
+            </optgroup>
+        </select>
+        <br><label for="num">Numéro tel :</label> <br>
+        <input type="tel" name="num" id="num">
+        <br><label for="numero">Numéro :</label> <br>
+        <input type="number" name="numero" id="numero"> <br>
+        <label for="color">Couleur :</label> <br>
+        <input type="color" name="color" id="color"> <br>
+        <label for="date">Date :</label> <br>
+        <input type="date" name="date" id="date"> <br>
+        <label for="search">Rechercher :</label> <br>
+        <input type="search" name="search" id="search" style="height: 30px; width: 200px;"> <br>
+    </form>
+</body>
+</html>
